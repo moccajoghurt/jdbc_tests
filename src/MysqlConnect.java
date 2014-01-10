@@ -10,7 +10,7 @@ public class MysqlConnect {
 		String dbName = "test_schema";
 		String driver = "com.mysql.jdbc.Driver";
 		String userName = "root";
-		String password = "madidus";
+		String password = "******";
 		try {
 			Class.forName(driver).newInstance();
 			conn = DriverManager
